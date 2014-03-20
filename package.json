@@ -9,7 +9,8 @@
 	"configurations": [
 	{
 		"name": "build",
-		"targetType": "library"
+		"targetType": "library",
+		"dflags":["-fPIC"]
 	},
 	{
 		"name": "test",
